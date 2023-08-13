@@ -21,7 +21,7 @@ This React component leverages TailwindCSS to deliver a sleek sidebar navigation
 2. Clone this repository:
 
 ```bash
-git clone [repository_url] react-sidebar-navigation
+git clone https://github.com/ennzudev/react-sidebar-navigation.git react-sidebar-navigation
 cd react-sidebar-navigation
 ```
 
