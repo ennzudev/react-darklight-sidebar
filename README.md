@@ -8,46 +8,43 @@ This React component leverages TailwindCSS to deliver a sleek sidebar navigation
 
 ## Features
 
-- 🌒 Smooth switch between dark and light mode
+- 🌒 Smooth switch between dark and light mode with the bottom icon
 - 🚀 Built with TailwindCSS for fast and efficient styling
+- 🎨 Uses [Material-UI icons](https://mui.com/material-ui/material-icons/).
 - 📱 Responsive and mobile-friendly
 - 🔍 Tooltips for each icon's description
-- 🎨 Stylish design and animations
+- 👁️ Stylish design and animations
 
 ## Installation
 
 1. Ensure you have Node.js and npm or yarn installed.
 2. Clone this repository:
 
-\```bash
+```bash
 git clone [repository_url] react-sidebar-navigation
 cd react-sidebar-navigation
-\```
+```
 
 3. Install the dependencies:
 
-\```bash
+```bash
 npm install
-# or
-yarn install
-\```
+```
 
 4. Run the project:
 
-\```bash
-npm start
-# or
-yarn start
-\```
+```bash
+npm run dev
+```
 
-The project should now be running at `http://localhost:3000`.
+The project should now be running at `[http://localhost:5173]` as Vite chooses that port.
 
 ## Usage
 
 Import the sidebar navigation component and use it within your component or page:
 
-\```javascript
-import SidebarNavigation from './path_to_SidebarNavigation';
+```javascript
+import SidebarNavigation from './components/SideBarNavigation';
 
 function App() {
   return (
@@ -57,11 +54,17 @@ function App() {
     </div>
   );
 }
-\```
+```
 
 ## Customization
 
 To customize the icons or add new ones, simply edit the related sidebar navigation file.
+- **Adding a New Icon** 🎨: 
+    1. 🌐 Visit [Material-UI icons](https://mui.com/material-ui/material-icons/).
+    2. 🔍 Search for an icon of your preference.
+    3. 🖱️ Click on the desired icon.
+    4. 📋 Copy the 'import code' provided.
+    5. 📥 Paste it in your component and use it as needed.
 
 ## Contributing
 
